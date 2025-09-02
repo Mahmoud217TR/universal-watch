@@ -12,7 +12,7 @@
   <main class="mt-10 mb-20 px-8">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-20">
       <div class="flex flex-col items-center justify-center gap-6 col-span-full">
-        <ClockDisplay class="text-white" time-zone="PST">
+        <ClockDisplay class="text-white">
         </ClockDisplay>
         <h2 class="text-white text-center text-4xl text-shadow-[0_0_10px] text-shadow-current font-capsule tracking-widest">
           {{ currentTimezone }} Timezone
