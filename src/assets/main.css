@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+html, body {
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: 'digital';
+  src: url('./fonts/DigitalNormal-xO6j.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'capsule';
+  src: url('./fonts/Capsulexpromediumuc-DA20.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-digital {
+  font-family: 'digital';
+}
+
+.font-capsule {
+  font-family: 'capsule';
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circleRotate {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(405deg);
+  }
+}
